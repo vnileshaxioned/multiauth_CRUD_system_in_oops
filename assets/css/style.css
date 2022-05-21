@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+header {
+    padding: 30px 0;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.container {
+    margin: -25px auto 0 auto;
+    padding: 0;
+    width: 90%;
+}
+.mt-4{
+    margin-top: 40px;
+}
+.text-center{
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container h1 {
+    float: left;
+    padding: 0;
+    font-weight: 900;
+    font-size: 28px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Roboto", Arial, sans-serif;
+}
+header .container h1 a{
+    color: black;
+    text-decoration: none;
+}
+header .container .left{
+    padding: 0;
+}
+header .container .right{
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+header .container .right ul{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", Arial, sans-serif;
+}
+header .container .right ul li {
+    list-style: none;
+    margin-left: 10px;
+    display: inline-block;
+}
+header .container .right ul li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+header .container .right ul li a {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    padding: 12px 15px;
+    text-decoration: none;
+    position: relative;
+}
+header .container .right ul li a:hover {
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background: #0000009c;
+    border-radius: 10px;
+}
+
+
+/*  card */
+
+.container .card{
+    width: 50%;
+    margin: 40px auto;
+    background: #e7e7e7;
+    padding: 15px 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card-body{
+    text-align: left;
+}
+
+.card-header{
+    font-family: "Roboto", Arial, sans-serif;
+    color: #464646;
+    border-bottom: 2px solid;
+    width: 80%;
+    margin: 0 auto 25px auto;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* button */
+
+.btn{
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Roboto", Arial, sans-serif;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-success{
+    background-color: rgb(72, 192, 72);
+}
+
+.btn-success:hover{
+    background-color: rgb(3, 141, 3);
+}
+
+.btn-primary{
+    background-color: rgb(63, 100, 168);
+}
+
+.btn-primary:hover{
+    background-color: rgb(0, 81, 255);
+}
+
+.btn-danger{
+    background-color: rgb(211, 55, 55);
+}
+
+.btn-danger:hover{
+    background-color: rgb(141, 8, 8);
+}
+
+.btn-logout{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    padding: 12px 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-logout:hover{
+    outline: none;
+    color: white;
+    background: #0000009c;
+    border-radius: 10px;
+}
+
+span {
+    color: red;
+}
+
+.error-show {
+    display: block;
+}
+
+/* form */
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.form-group .form-control{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px 0;
+}
+
+/* table */
+
+.table{
+    display: table;
+    border-collapse: collapse;
+    margin: 25px 0;
+    width: 100%;
+    table-layout: fixed;
+    list-style: none;
+    font-size: 14px;
+    min-width: 400px;
+    font-family: "Roboto", Arial, sans-serif;
+}
+
+.table .thead{
+    background-color: #464646;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    display: table-row;
+}
+
+.table .th,
+.table .td{
+    padding: 12px 15px;
+    align-items: center;
+    display: table-cell;
+}
+
+.table .thead .id{
+    width: 50px;
+}
+
+.table .action{
+    width: 200px;
+}
+
+.table .td img{
+    width: 150px;
+}
+
+.table .tbody{
+    border-bottom: 1px solid #dddddd;
+    display: table-row;
+}
+
+.table .tbody:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.table .tbody:last-of-type{
+    border-bottom: 2px soli #464646;
+}
+
+
+/* footer */
+
+.footer{
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    position: fixed;
+    background: #646464;
+    font-family: "Roboto", Arial, sans-serif;
+}
